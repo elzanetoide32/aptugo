@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #F5EAEA !important;
+
+    // ---Class desarrollo y producción botón dialog----------------
+
+    [class~=css-1fo2sjy-MuiButtonBase-root-MuiFab-root], [class~=css-1l3umsk] {
+        background-color: #4F6ABF !important;
+    }
+
+    // ---Class desarrollo y producción search--------------------------
+
+    [class~=css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input], [class~=css-1x5jdmq] {
+        height: 0.1rem !important;
+        width: 20rem !important;
+    }
+}
+
+.mainarea {
+    background-color: #FFFFFF;
+    height: auto;
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem !important;
+}
+
+//  ------- NAVBAR --------------------------------------------------------
+
+.navbar {
+    background-color: transparent;
+    height: 4.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.938rem;
+
+    & .search {
+        width: 60% !important;
+        display: flex;
+        justify-content: flex-end !important;
+    }
+}
+
+.logo_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.help_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 20%;
+    margin-left: 3rem;
+}
+
+.login_register {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.938rem;
+    width: 40% !important;
+
+    & .btn_login {
+        color: #4F6ABF !important;
+        background-color: #FFFFFF !important;
+        border: 1px solid #4F6ABF !important;
+        height: 30px;
+        font-size: 0.6rem !important;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    & .btn_register {
+        color: #FFFFFF !important;
+        background-color: #4F6ABF !important;
+        border: 1px solid #4F6ABF !important;
+        height: 30px;
+        font-size: 0.6rem !important;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+
+    & .btn_admin {
+        color: #FF603D !important;
+        background-color: #FFFFFF !important;
+        border: 1px solid #FF603D !important;
+        height: 30px;
+        font-size: 0.6rem !important;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+// ------ HERO ----------------------------------------------------------------
+
+.hero {
+    background: linear-gradient(135deg, hsla(11, 100%, 62%, 1) 0%, hsla(226, 47%, 53%, 1) 100%);
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 2rem 7rem;
+    gap: 4rem;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2rem;
+    width: 50%;
+}
+
+.hero_button {
+    background-color: #4F6ABF !important;
+}
+
+.socials_icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+.hero_content_right {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px 100px 16px 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-repeat: no-repeat;
+    background-size: 92%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.hero_content_right_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero_content_right_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+.hero_content_right_three {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+//-------- ASK QUESTIONS -------------------------------------------------------
+
+.ask_questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+// --------- CATEGORY --------------------------------------------------------
+
+.category {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.details {
+    border-top: 1px solid #1976d2;
+    border-bottom: 1px solid #1976d2;
+}
+
+//-------- CLASS ----------------------------------------------------------------
+
+.divFiltrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.class {
+    color: #4F6ABF !important;
+    background-color: #FFFFFF !important;
+    border: 2px solid #4F6ABF !important;
+    margin: 0.3rem !important;
+}
+
+.class:hover {
+
+    color: #FFFFFF !important;
+    background-color: #4F6ABF !important;
+}
+
+.class:focus {
+    color: #FFFFFF !important;
+    background-color: #4F6ABF !important;
+}
+
+.class_types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.questions_dialog {
+    color: #FFFFFF !important;
+    background-color: #4F6ABF !important;
+    margin-left: 5px !important;
+}
+
+// ------ LOGIN-REGISTER-RECOVER PASSWORD ----------------------------------------------------------------
+
+.loginBody,
+.registerBody,
+.retrieveBody {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #F5EAEA !important;
+}
+
+.fondo {
+    background-image: linear-gradient(rgba(79, 106, 191, 0.7), rgba(79, 106, 191, 0.7)), url('https://res.cloudinary.com/carina-bosio/image/upload/v1678669842/companeros-que-trabajan-oficina-ambiente-relajado_jurjnd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer,
+.registerContainer,
+.retrieveContainer {
+    width: 35rem !important;
+    height: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2.5rem auto !important;
+    padding: 2rem !important;
+    gap: 2rem;
+    font-size: 14px !important;
+    color: #2d333a !important;
+    background-color: #fff !important;
+    box-shadow: 0 12px 40px rgb(0 0 0 / 12%) !important;
+    border-radius: 5px !important;
+    border: 0 solid transparent !important;
+}
+
+.loginHeading,
+.registerHeading,
+.retrieveHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.registerLink,
+.loginLink,
+.retrieveLink {
+    color: #4F6ABF;
+}
+
+.loginContent,
+.registerContent,
+.retrieveContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginInput,
+.registerInput,
+.retrieveInput {
+    width: 25rem !important;
+}
+
+.loginRecupero {
+    width: 25rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginBtn,
+.registerBtn {
+    width: 10rem !important;
+    background-color: #4F6ABF !important;
+
+    & :disabled {
+        cursor: not-allowed !important;
+    }
+}
+
+.retrieveBtn {
+    width: 20rem !important;
+    background-color: #4F6ABF !important;
+}
+
+.sectionRegister,
+.sectionLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+// ------SECCION PREGUNTAS - RESPUESTAS --------------------------------
+
+.text_preguntas {
+    color: #4F6ABF;
+}
+
+.container_preguntas_y_respuestas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0 auto;
+}
+
+.section_preguntas_y_respuestas {
+    margin: 0.2rem 0;
+    width: 90%;
+}
+
+// --------FOOTER ----------------------------------------------------------------
+
+.sectionFooter {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #F5EAEA !important;
+    color: #000000 !important;
+    height: auto !important;
+    width: 100vw;
+    padding-bottom: 0.5rem;
+}
+
+.footerSup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    width: 100vw;
+    margin: 1.5rem auto;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_social_links {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 1rem;
+}
+
+.footerTitles {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer_icon_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0.2rem;
+}
+
+.footer_copyright {
+    border-top: 1px solid #BEBFC5;
+    width: 95vw;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+// ------ TEAM --------------------------------------------------------
+
+.bodyTeam {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #F5EAEA !important;
+}
+
+.fondoTeam {
+    background-image: linear-gradient(rgba(79, 106, 191, 0.7), rgba(79, 106, 191, 0.7)), url('https://res.cloudinary.com/carina-bosio/image/upload/v1678669868/companeros-que-trabajan-oficina-ambiente-relajado_1_zdby2e.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    gap: 1.5rem
+}
+
+.team {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.roles {
+    font-weight: 500;
+}
+
+.ourTeam {
+    width: 272px;
+    padding: 30px 20px 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+}
+
+.ourTeam .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+.ourTeam .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #4f6abf;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+
+.ourTeam:hover .picture::before {
+    height: 100%;
+}
+
+.ourTeam .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4f6abf;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.ourTeam .picture .image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+
+.ourTeam:hover .picture .image {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+.ourTeam .title {
+    display: block;
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+
+.social {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.ourTeam .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #4f6abf;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.ourTeam:hover .social {
+    bottom: 0;
+}
+
+.ourTeam .social .linkIcon {
+    display: inline-block;
+}
+
+.ourTeam .social .linkIcon .link {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.ourTeam .social .linkIcon .link:hover {
+    color: #4f6abf;
+    background-color: #f7f5ec;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+// --------POP UP ----------------------------------------------------------------
+
+.img_popUp {
+    border-radius: 62% 38% 22% 78% / 22% 63% 37% 78%;
+    background: linear-gradient(135deg, hsla(11, 100%, 62%, 1) 0%, hsla(226, 47%, 53%, 1) 100%);
+
+}
+
+.btn_close {
+    color: #4f6abf !important;
+}
+
+//------PAGINACIÓN----------------------------------------------------------------
+
+.div_pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
